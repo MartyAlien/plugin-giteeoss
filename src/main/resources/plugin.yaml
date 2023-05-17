@@ -1,0 +1,23 @@
+apiVersion: plugin.halo.run/v1alpha1
+kind: Plugin
+metadata:
+  # The name defines how the plugin is invoked,A unique name
+  name: PluginGiteeOSS
+spec:
+  enabled: true
+  # 'version' is a valid semantic version string (see semver.org).
+  version: 1.0.0
+  requires: ">=2.0.0"
+  author:
+    name: Mr.Bai
+    website: https://blog.yocloud.top
+  logo: /static/logo.png
+  # 'homepage' usually links to the GitHub repository of the plugin
+  settingName: giteeoss-settings
+  configMapName: giteeoss-settings
+  homepage: https://github.com/MartyAlien/plugin-giteeoss
+  # 'displayName' explains what the plugin does in only a few words
+  displayName: "Gitee附件插件"
+  description: "基于plugin-githuboss实现思路，实现Gitee仓库作附件存储空间"
+  license:
+    - name: "MIT"
