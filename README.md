@@ -35,3 +35,10 @@
 > 获取方法：不详记。需要开启仓库读写权限https://gitee.com/profile/personal_access_tokens
 2. 进入系统后台 - 附件：添加存储策略，按要求填写相关设置保存即可
 3. 上传附件：上传附件时选择刚刚添加的存储策略即可
+
+## 插件截图
+![image](https://github.com/MartyAlien/plugin-giteeoss/assets/62040646/0794c5cb-d8c6-4a02-9077-dec81cee4543)
+![image](https://github.com/MartyAlien/plugin-giteeoss/assets/62040646/461fb7de-8474-4d30-85dc-312e8f924c5d)
+![2023-4-23_20-26-56](https://github.com/MartyAlien/plugin-giteeoss/assets/62040646/6326e61d-a564-4857-8683-dc94389f85f0)
+
+
