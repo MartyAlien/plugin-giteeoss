@@ -3,6 +3,7 @@
 <p align="center">
 <a href="https://github.com/MartyAlien/plugin-giteeoss/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/MartyAlien/plugin-giteeoss.svg?style=flat-square&include_prereleases" /></a>
 <a href="https://github.com/MartyAlien/plugin-giteeoss/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MartyAlien/plugin-giteeoss.svg?style=flat-square" /></a>
+<a href="https://github.com/MartyAlien/plugin-giteeoss/actions/workflows/workflow.yml"><img alt="Build Plugin JAR File" src="https://github.com/MartyAlien/plugin-giteeoss/actions/workflows/workflow.yml/badge.svg?style=flat-square" /></a>
 <br />
 <a href="https://github.com/MartyAlien/plugin-giteeoss/issues">Issues</a>
 <a href="mailto:libai.ace@gmail.com">邮箱</a>
