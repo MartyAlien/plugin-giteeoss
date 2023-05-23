@@ -8,25 +8,7 @@ spec:
       label: 基本设置
       formSchema:
         - $formkit: text
-          help: 更新 Gitee 时需要的邮箱账号
-          label: 邮箱账号
-          name: email
-          validation: required|email
-        - $formkit: text
-          help: 更新 Gitee 时需要的用户名
-          label: 用户账号
-          name: name
-          validation: required
-    - group: article
-      label: 文章配置
-      formSchema:
-        - $formkit: radio
-          name: enable
-          label: 文章内图片 jsdelivr 加速优化
-          value: true
-          validation: required
-          options:
-            - label: 开启
-              value: true
-            - label: 关闭
-              value: false
+          help: 请前往 “附件 - 存储策略” 添加策略
+          label: 此处不用设置，请前往 “附件 - 存储策略” 添加策略
+          name: text
+          placeholder: 此处不用设置，请前往 “附件 - 存储策略” 添加策略

@@ -1,7 +1,7 @@
 apiVersion: storage.halo.run/v1alpha1
 kind: PolicyTemplate
 metadata:
-  name: giteeoss
+  name: easy-giteeoss
 spec:
   displayName: Gitee OSS
   settingName: giteeoss-form-setting
@@ -16,16 +16,16 @@ spec:
       formSchema:
         - $formkit: text
           name: owner
-          label: Gitee账户名
+          label: Gitee账户空间名
           validation: required
         - $formkit: text
           name: repo
-          label: 仓库名
+          label: 远程仓库名
           validation: required
         - $formkit: text
           name: path
           label: 上传目录
-          placeholder: 如不填写，则默认上传到根目录
+          placeholder: 如不填写，则默认上传到根目录(请不要以"/")开头
         - $formkit: text
           name: branch
           label: 分支
@@ -33,32 +33,17 @@ spec:
           placeholder: 仓库分支
           validation: required
         - $formkit: password
-          name: token
+          name: accessToken
           label: Gitee授权凭证
           validation: required
         - $formkit: text
-          name: creatName
+          name: haloUserName
           label: halo账户
-          placeholder: 请填写当前halo账号,因为现在拿不到
+          placeholder: 请填写当前halo账号
           validation: required
         - $formkit: radio
-          name: jsdelivr
-          label: jsdelivr访问前缀
-          value: gcore.jsdelivr.net
-          options:
-            - label: gcore.jsdelivr.net
-              value: gcore.jsdelivr.net
-            - label: cdn.jsdelivr.net
-              value: cdn.jsdelivr.net
-            - label: fastly.jsdelivr.net
-              value: fastly.jsdelivr.net
-            - label: originfastly.jsdelivr.net
-              value: originfastly.jsdelivr.net
-            - label: quantil.jsdelivr.net
-              value: quantil.jsdelivr.net
-        - $formkit: radio
-          name: deleteSync
-          label: 是否同步删除
+          name: ifDelSrc
+          label: 是否删除源文件
           value: true
           options:
             - label: 是
