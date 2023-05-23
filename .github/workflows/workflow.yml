@@ -26,6 +26,7 @@ jobs:
           version=${{ github.event.release.tag_name }}
           version=${version#v}
           sed -i "s/version=.*-SNAPSHOT$/version=$version/1" gradle.properties
+          chmod +x ./gradlew
           ./gradlew clean build -x test
       - name: Archive plugin-giteeoss jar
         uses: actions/upload-artifact@v2
