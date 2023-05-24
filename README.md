@@ -1,4 +1,10 @@
-<H2 align="center"><a href="https://github.com/MartyAlien/plugin-giteeoss">Gitee OSS</a> · <a href="https://github.com/halo-dev/halo#">Halo</a>插件</H2>
+<H2 align="center">
+  <img src="https://gitee.com/tanyajun/picgo-for-myself/raw/master/ez_atchs/20230524171718891-dhyk.png" alt="20230524171718891-dhyk.png" style="vertical-align: middle;width:40px;height:40px;" />
+  <a href="https://github.com/MartyAlien/plugin-giteeoss">Gitee OSS</a>
+  · 
+  <a href="https://github.com/halo-dev/halo#">Halo</a>
+  插件
+</H2>
 
 <p align="center">
 <a href="https://github.com/MartyAlien/plugin-giteeoss/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/MartyAlien/plugin-giteeoss.svg?style=flat-square&include_prereleases" /></a>
