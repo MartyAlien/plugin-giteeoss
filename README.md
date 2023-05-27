@@ -23,7 +23,7 @@
 1. 支持使用 Gitee 做附件存储
 2. 支持删除文件时可以不同步删除仓库
 
-> 感谢 <a href="https://github.com/AirboZH/plugin-uposs">GithubOSS</a> 插件的作者提供开源代码，本插件基于此插件进行修改
+> 感谢 <a href="https://github.com/guicaiyue/plugin-githuboss">GithubOSS</a> 插件的作者提供开源代码，本插件基于此插件进行修改
 > 修改目的：国内用户可能使用Github不是很方便，故而开发此插件
 
 ## 获取插件方式
