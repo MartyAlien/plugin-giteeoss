@@ -11,6 +11,9 @@
 <a href="https://github.com/MartyAlien/plugin-giteeoss/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MartyAlien/plugin-giteeoss.svg?style=flat-square" /></a>
 <a href="https://github.com/MartyAlien/plugin-giteeoss/actions/workflows/workflow.yml"><img alt="Build Plugin JAR File" src="https://github.com/MartyAlien/plugin-giteeoss/actions/workflows/workflow.yml/badge.svg?style=flat-square" /></a>
 <br />
+<a href="/"><img src="https://img.shields.io/github/downloads/MartyAlien/plugin-giteeoss/total?color=1f6feb&label=Downloads" /></a>
+<a href="/"><img src="https://img.shields.io/github/stars/MartyAlien/plugin-giteeoss?color=#219241" /></a>
+<br />
 <a href="https://github.com/MartyAlien/plugin-giteeoss/issues">Issues</a>
 <a href="mailto:libai.ace@gmail.com">邮箱</a>
 </p>
