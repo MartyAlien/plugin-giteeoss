@@ -7,6 +7,12 @@ assignees: ''
 
 ---
 
+**Halo version**
+
+
+**Plugin-giteeoss version**
+
+
 **Briefly describe the problem**
 
 

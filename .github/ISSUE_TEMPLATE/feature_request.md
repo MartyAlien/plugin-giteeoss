@@ -7,16 +7,16 @@ assignees: ''
 
 ---
 
-** Halo version **
+**Halo version**
 
 
-** Plugin-giteeoss version **
+**Plugin-giteeoss version**
 
 
-** Is your feature request related to a problem?  **
+**Is your feature request related to a problem? **
 
 
-** Describe the solution or mind you'd like **
+**Describe the solution or mind you'd like**
 
 
 **Additional context**
