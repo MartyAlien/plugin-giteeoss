@@ -42,7 +42,7 @@ jobs:
     if: github.event_name == 'release'
     steps:
       - name: Download plugin-giteeoss jar
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@4.1.7
         with:
           name: plugin-giteeoss
           path: build/libs
